@@ -28,8 +28,7 @@ def bubble_tint(bubble):
 
 def on_fruit_collected(fruit):
     """Called when the player picks up a fruit; add a sound, sparkle, or bonus effect here."""
-    pass
-
+    print(f"Fruit collected! +{fruit.value} points")
 
 def bonus_life_threshold():
     """Return a score value at which the player earns an extra life, or None to disable bonus lives."""
